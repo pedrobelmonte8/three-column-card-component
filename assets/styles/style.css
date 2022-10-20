@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+/*
+font-family: 'Lexend Deca', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+/*font-family: 'Big Shoulders Display', cursive;
+*/
+/* (paragraphs)*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  width: 900px;
+}
+main h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin: 25px 0;
+}
+main .containerField {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  padding: 45px;
+  color: rgba(255, 255, 255, 0.7490196078);
+}
+main .containerField.box1 {
+  background-color: #e38826;
+  border-radius: 8px 0 0 8px;
+}
+main .containerField.box1 button {
+  color: #e38826;
+}
+main .containerField.box2 {
+  background-color: #006970;
+}
+main .containerField.box2 button {
+  color: #006970;
+}
+main .containerField.box3 {
+  background-color: #004241;
+  border-radius: 0 8px 8px 0;
+}
+main .containerField.box3 button {
+  color: #004241;
+}
+main .containerField p {
+  color: rgba(255, 255, 255, 0.7490196078);
+}
+main .containerField button {
+  width: 120px;
+  height: 40px;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+@media (max-width: 900px) {
+  body {
+    height: auto;
+  }
+  main {
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+  }
+  main .containerField.box1 {
+    border-radius: 8px 8px 0 0;
+  }
+  main .containerField.box3 {
+    border-radius: 0 0 8px 8px;
+  }
+}/*# sourceMappingURL=style.css.map */
